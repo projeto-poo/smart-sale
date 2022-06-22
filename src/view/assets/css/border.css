@@ -1,0 +1,75 @@
+.border-1 {
+    -fx-border-width: 1px;
+}
+
+.border-transparent {
+    -fx-border-color: transparent;
+}
+
+.border-white {
+    -fx-border-color: #fff;
+}
+
+.border-gray-100 {
+    -fx-border-color: #f8f9fa;
+}
+
+.border-gray-200 {
+    -fx-border-color: #e9ecef;
+}
+
+.border-gray-300 {
+    -fx-border-color: #dee2e6;
+}
+
+.border-gray-400 {
+    -fx-border-color: #ced4da;
+}
+
+.border-gray-500 {
+    -fx-border-color: #adb5bd;
+}
+
+.border-gray-600 {
+    -fx-border-color: #6c757d;
+}
+
+.border-gray-700 {
+    -fx-border-color: #495057;
+}
+
+.border-gray-800 {
+    -fx-border-color: #343a40;
+}
+
+.border-gray-850 {
+    -fx-border-color: #171b1f;
+}
+
+.border-gray-900 {
+    -fx-border-color: #12161a;
+}
+
+.border-black {
+    -fx-border-color: #000;
+}
+
+.border-body {
+    -fx-border-color: #12161a;
+}
+
+.border-primary {
+    -fx-border-color: #c17563;
+}
+
+.border-secondary {
+    -fx-border-color: #f2cda0;
+}
+
+.border-success {
+    -fx-border-color: #82c976;
+}
+
+.border-danger {
+    -fx-border-color: #da5858;
+}

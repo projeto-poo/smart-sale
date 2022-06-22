@@ -1,0 +1,59 @@
+.text-white {
+    -fx-text-fill: #fff;
+}
+
+.text-gray-100 {
+    -fx-text-fill: #f8f9fa;
+}
+
+.text-gray-200 {
+    -fx-text-fill: #e9ecef;
+}
+
+.text-gray-300 {
+    -fx-text-fill: #dee2e6;
+}
+
+.text-gray-400 {
+    -fx-text-fill: #ced4da;
+}
+
+.text-gray-500 {
+    -fx-text-fill: #adb5bd;
+}
+
+.text-gray-600 {
+    -fx-text-fill: #6c757d;
+}
+
+.text-gray-700 {
+    -fx-text-fill: #495057;
+}
+
+.text-gray-800 {
+    -fx-text-fill: #343a40;
+}
+
+.text-gray-900 {
+    -fx-text-fill: #12161a;
+}
+
+.text-black {
+    -fx-text-fill: #000;
+}
+
+.text-primary {
+    -fx-text-fill: #c17563;
+}
+
+.text-secondary {
+    -fx-text-fill: #f2cda0;
+}
+
+.text-success {
+    -fx-text-fill: #82c976;
+}
+
+.text-danger {
+    -fx-text-fill: #da5858;
+}

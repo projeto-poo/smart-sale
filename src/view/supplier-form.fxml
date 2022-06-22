@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="1018.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SupplierFormController">
+   <children>
+      <AnchorPane>
+         <children>
+            <TextField fx:id="textFieldName" layoutX="40.0" layoutY="44.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="9.0" />
+            <Label layoutX="50.0" text="Nome do fornecedor" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0">
+               <styleClass>
+                  <String fx:value="body" />
+                  <String fx:value="form-label" />
+               </styleClass>
+            </Label>
+            <Label fx:id="labelFeedbackName" layoutX="164.0" layoutY="6.0" textAlignment="RIGHT" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="0.0">
+               <styleClass>
+                  <String fx:value="body" />
+                  <String fx:value="form-feedback" />
+               </styleClass>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane>
+         <children>
+            <TextField fx:id="textFieldPhone" layoutX="30.0" layoutY="9.0" onKeyReleased="#textFieldPhoneOnKeyReleased" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="9.0" />
+            <Label layoutX="50.0" text="Telefone para contato" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0">
+               <styleClass>
+                  <String fx:value="body" />
+                  <String fx:value="form-label" />
+               </styleClass>
+            </Label>
+            <Label fx:id="labelFeedbackPhone" layoutX="550.0" textAlignment="RIGHT" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="0.0">
+               <styleClass>
+                  <String fx:value="body" />
+                  <String fx:value="form-feedback" />
+               </styleClass>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane>
+         <children>
+            <Button layoutX="30.0" mnemonicParsing="false" onAction="#buttonSubmitOnAction" styleClass="button-success" text="SALVAR" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="0.0" />
+            <Button layoutX="134.0" mnemonicParsing="false" onAction="#buttonCancelOnAction" styleClass="button-outline-primary" text="CANCELAR" AnchorPane.leftAnchor="134.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

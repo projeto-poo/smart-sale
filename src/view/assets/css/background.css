@@ -1,0 +1,79 @@
+.bg-transparent {
+    -fx-background-color: transparent;
+}
+
+.bg-white {
+    -fx-background-color: #fff;
+}
+
+.bg-white-50 {
+    -fx-background-color: rgba(255, 255, 255, .5);
+}
+
+.bg-white-70 {
+    -fx-background-color: rgba(255, 255, 255, .7);
+}
+
+.bg-gray-100 {
+    -fx-background-color: #f8f9fa;
+}
+
+.bg-gray-200 {
+    -fx-background-color: #e9ecef;
+}
+
+.bg-gray-300 {
+    -fx-background-color: #dee2e6;
+}
+
+.bg-gray-400 {
+    -fx-background-color: #ced4da;
+}
+
+.bg-gray-500 {
+    -fx-background-color: #adb5bd;
+}
+
+.bg-gray-600 {
+    -fx-background-color: #6c757d;
+}
+
+.bg-gray-700 {
+    -fx-background-color: #495057;
+}
+
+.bg-gray-800 {
+    -fx-background-color: #343a40;
+}
+
+.bg-gray-850 {
+    -fx-background-color: #171b1f;
+}
+
+.bg-gray-900 {
+    -fx-background-color: #12161a;
+}
+
+.bg-black {
+    -fx-background-color: #000;
+}
+
+.bg-body {
+    -fx-background-color: #12161a;
+}
+
+.bg-primary {
+    -fx-background-color: #c17563;
+}
+
+.bg-secondary {
+    -fx-background-color: #f2cda0;
+}
+
+.bg-success {
+    -fx-background-color: #82c976;
+}
+
+.bg-danger {
+    -fx-background-color: #da5858;
+}

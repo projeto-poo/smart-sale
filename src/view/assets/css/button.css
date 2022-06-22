@@ -1,0 +1,156 @@
+.button {
+    -fx-padding: 12px 20px;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-text-fill: #fff;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+}
+
+.button-sm {
+    -fx-padding: 8px;
+}
+
+.button-strong {
+    -fx-font-weight: bold;
+}
+
+.button-set-size {
+    -width: 1px;
+    -height: 1px;
+
+    -fx-min-width: -width;
+    -fx-min-height: -height;
+    -fx-max-width: -width;
+    -fx-max-height: -height;
+}
+
+.button-icon {
+    -fx-padding: 4px;
+}
+
+.button-opacity {
+    -fx-opacity: .7;
+}
+
+.button-opacity:hover {
+    -fx-opacity: 1;
+}
+
+.button-window-control {
+    -fx-background-color: transparent;
+}
+
+.button-primary {
+    -fx-background-color: #c17563;
+}
+
+.button-primary:hover {
+    -fx-background-color: #b76b59;
+}
+
+.button-primary:pressed {
+    -fx-background-color: #ad614f;
+}
+
+.button-secondary {
+    -fx-background-color: #f2cda0;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #e8c396;
+}
+
+.button-secondary:pressed {
+    -fx-background-color: #deb98c;
+}
+
+.button-success {
+    -fx-background-color: #64ab62;
+}
+
+.button-success:hover {
+    -fx-background-color: #5aa158;
+}
+
+.button-success:pressed {
+    -fx-background-color: #50974e;
+}
+
+.button-danger {
+    -fx-background-color: #da5858;
+}
+
+.button-danger:hover {
+    -fx-background-color: #d04e4e;
+}
+
+.button-danger:pressed {
+    -fx-background-color: #c64444;
+}
+
+.button-dark {
+    -fx-background-color: #343a40;
+}
+
+.button-dark:hover {
+    -fx-background-color: #2a3036;
+}
+
+.button-dark:pressed {
+    -fx-background-color: #20262c;
+}
+
+.button-outline-primary {
+    -fx-text-fill: #c17563;
+    -fx-border-color: #c17563;
+    -fx-background-color: transparent;
+}
+
+.button-outline-primary:hover {
+    -fx-text-fill: #fff;
+    -fx-border-color: transparent;
+    -fx-background-color: #c17563;
+}
+
+.button-outline-primary:pressed {
+    -fx-background-color: #b76b59;
+}
+
+.button-outline-dark {
+    -fx-text-fill: #343a40;
+    -fx-border-color: #343a40;
+    -fx-background-color: transparent;
+}
+
+.button-outline-dark:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #343a40;
+}
+
+.button-outline-dark:pressed {
+    -fx-background-color: #2a3036;
+}
+
+.button-crud {
+    -fx-background-color: transparent;
+}
+
+.button-crud .icon-svg {
+    -fx-background-color: #adb5bd;
+}
+
+.button-crud:hover {
+    -fx-border-color: #343a40;
+    -fx-background-color: #171b1f;
+}
+
+.button-crud:pressed {
+    -fx-border-color: #c17563;
+}
+
+.button-crud:pressed .icon-svg {
+    -fx-background-color: #fff;
+}

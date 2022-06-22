@@ -1,0 +1,38 @@
+.sidenav {
+    -fx-min-width: 260px;
+    -fx-max-width: 260px;
+    -fx-background-color: #171b1f;
+    -fx-background-radius: 8px 0 0 8px;
+    -fx-border-radius: 8px 0 0 8px;
+}
+
+.sidenav-menu-item {
+    -fx-min-width: 260px;
+    -fx-max-width: 260px;
+    -fx-graphic-text-gap: 16px;
+    -fx-padding: 16px 0 16px 20px;
+    -fx-font-family: "Roboto";
+    -fx-alignment: baseline-left;
+    -fx-font-size: 14px;
+    -fx-text-fill: #adb5bd;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.sidenav-menu-item .icon-svg {
+    -width: 20px;
+    -fx-background-color: #adb5bd;
+}
+
+.sidenav-menu-item:hover {
+    -fx-background-color: #1c2024;
+}
+
+.sidenav-menu-item-active {
+    -fx-text-fill: #c17563;
+}
+
+.sidenav-menu-item-active .icon-svg {
+    -fx-background-color: #c17563;
+}

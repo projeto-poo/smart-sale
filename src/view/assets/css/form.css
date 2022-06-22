@@ -1,0 +1,107 @@
+.text-field,
+.password-field,
+.combo-box {
+    -fx-padding: 12px 20px;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-text-fill: #adb5bd;
+    -fx-border-color: #343a40;
+    -fx-background-color: transparent;
+
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+}
+
+.text-field:focused,
+.password-field:focused,
+.combo-box:focused {
+    -fx-border-color: #c17563 !important;
+}
+
+.combo-box {
+    -fx-padding: 7px 10px;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #343a40;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-padding: 8px 20px;
+    -fx-background-color: transparent;
+}
+
+.combo-box .list-view .list-cell,
+.combo-box .list-cell:selected {
+    -fx-text-fill: #adb5bd;
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-text-fill: #fff;
+}
+
+.check-box .box {
+    -fx-border-color: #343a40;
+    -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #dee2e6;
+}
+
+.text-field.is-invalid,
+.password-field.is-invalid,
+.combo-box.is-invalid {
+    -fx-border-color: #da5858;
+}
+
+.text-field.is-valid,
+.password-field.is-valid,
+.combo-box.is-valid {
+    -fx-border-color: #82c976;
+}
+
+.field-icon-left {
+    -fx-padding: 12px 20px 12px 46px;
+}
+
+.field-icon-left-sm {
+    -fx-padding: 8px 20px 8px 41px;
+}
+
+.form-label {
+    -fx-padding: 0 2px;
+}
+
+.form-text,
+.form-label {
+    -fx-text-fill: #6c757d;
+}
+
+.form-text,
+.form-label,
+.form-feedback {
+    -fx-font-size: 12px;
+}
+
+.form-label,
+.form-feedback {
+    -fx-background-color: #12161a;
+}
+
+.form-feedback.is-invalid,
+.form-feedback.is-valid {
+    -fx-padding: 0 2px;
+}
+
+.form-feedback.is-invalid {
+    -fx-text-fill: #da5858;
+}
+
+.form-feedback.is-valid {
+    -fx-text-fill: #82c976;
+}

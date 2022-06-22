@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="1018.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SaleController">
+   <children>
+      <AnchorPane>
+         <children>
+            <TextField fx:id="textFieldSearch" layoutX="40.0" layoutY="44.0" styleClass="field-icon-left-sm" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="9.0" />
+            <Label layoutX="50.0" text="O que você procura?" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0">
+               <styleClass>
+                  <String fx:value="body" />
+                  <String fx:value="form-label" />
+               </styleClass>
+            </Label>
+            <AnchorPane layoutX="46.0" layoutY="21.0" style="-width: 16; -height: 16;" AnchorPane.leftAnchor="46.0" AnchorPane.topAnchor="21.0">
+               <styleClass>
+                  <String fx:value="icon-svg" />
+                  <String fx:value="icon-search" />
+                  <String fx:value="bg-gray-500" />
+               </styleClass>
+            </AnchorPane>
+            <Button layoutX="606.0" layoutY="9.0" mnemonicParsing="false" onAction="#buttonAddOnAction" style="-width: 38; -height: 38;" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="9.0">
+               <styleClass>
+                  <String fx:value="button-crud" />
+                  <String fx:value="button-set-size" />
+               </styleClass>
+               <graphic>
+                  <AnchorPane style="-width: 16; -height: 16;">
+                     <styleClass>
+                        <String fx:value="icon-svg" />
+                        <String fx:value="icon-plus" />
+                     </styleClass>
+                  </AnchorPane>
+               </graphic>
+               <tooltip>
+                  <Tooltip text="Adicionar novo" />
+               </tooltip>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="654.0">
+         <children>
+            <TableView fx:id="tableViewSale" layoutX="48.0" layoutY="30.0" styleClass="table-view-select" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+               <columns>
+                  <TableColumn fx:id="tableColumnSaleCode" editable="false" prefWidth="150.0" resizable="false" text="Código" />
+                  <TableColumn fx:id="tableColumnSaleCustomer" editable="false" prefWidth="506.0" resizable="false" text="Cliente" />
+                  <TableColumn fx:id="tableColumnSalePrice" editable="false" prefWidth="150.0" resizable="false" text="Preço" />
+                  <TableColumn fx:id="tableColumnSaleData" editable="false" prefWidth="150.0" resizable="false" text="Data" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
